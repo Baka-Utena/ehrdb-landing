@@ -1,0 +1,76 @@
+.textfield {
+	position: relative;
+	&.is-required {
+		&:before {
+			color: $primary;
+			content: '*';
+			display: block;
+			font-size: 18px;
+			left: 100%;
+			opacity: .8;
+			padding-left: $base-gutter;
+			position: absolute;
+		}
+	}
+	&__input {
+		align-items: center;
+		background: transparent!important;
+		border: 2px solid $dim-dark;
+		border-radius: 2px;
+		color: $dim;
+		display: flex;
+		font-family: "Open Sans", sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		height: $base-gutter * 6;
+		padding: 0 $base-gutter * 2;
+		position: relative;
+		width: 100%;
+		z-index: 1;
+		&:hover {
+			border: 2px solid $primary;
+			color: $white;
+			
+			& + .textfield__placeholder {
+				color: $primary;
+			}
+		}
+		&:focus,
+		&:active {
+			border: 2px solid $primary;
+			color: $white;
+			outline: none;
+
+			& + .textfield__placeholder {
+				display: none;
+			}
+		}
+	}
+	&__error {
+		color: #fe4359;
+		font-size: 12px;
+		padding: $base-gutter $base-gutter * 2;
+		position: absolute;
+		top: 100%;
+	}
+	&__placeholder {
+		align-items: center;
+		color: $dim;
+		display: flex;
+		font-size: 16px;
+		font-weight: 600;
+		height: 100%;
+		left: 0;
+		padding: 0 $base-gutter * 2;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
+	}
+}
+
+::placeholder {
+	color: $dim;
+	font-size: 16px;
+	font-weight: 600;
+}

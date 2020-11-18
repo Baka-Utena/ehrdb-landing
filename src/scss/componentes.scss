@@ -1,0 +1,13 @@
+hr {
+	background:#11228c;
+	border: none;
+	height: 2px;
+	margin: $base-gutter * 1.5 auto;
+	width: $base-gutter * 6;
+}
+.emphasis {
+	color: $primary;
+}
+.bold {
+	font-weight: 600;
+}
