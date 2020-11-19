@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ehrdb-landing/static/css/main.b83f1386.chunk.css",
-    "main.js": "/ehrdb-landing/static/js/main.af6dd60b.chunk.js",
-    "main.js.map": "/ehrdb-landing/static/js/main.af6dd60b.chunk.js.map",
+    "main.css": "/ehrdb-landing/static/css/main.eeafa393.chunk.css",
+    "main.js": "/ehrdb-landing/static/js/main.5e1c903a.chunk.js",
+    "main.js.map": "/ehrdb-landing/static/js/main.5e1c903a.chunk.js.map",
     "runtime-main.js": "/ehrdb-landing/static/js/runtime-main.a4fccdd0.js",
     "runtime-main.js.map": "/ehrdb-landing/static/js/runtime-main.a4fccdd0.js.map",
     "static/js/2.dc565deb.chunk.js": "/ehrdb-landing/static/js/2.dc565deb.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.c2832fb0.chunk.js": "/ehrdb-landing/static/js/3.c2832fb0.chunk.js",
     "static/js/3.c2832fb0.chunk.js.map": "/ehrdb-landing/static/js/3.c2832fb0.chunk.js.map",
     "index.html": "/ehrdb-landing/index.html",
-    "static/css/main.b83f1386.chunk.css.map": "/ehrdb-landing/static/css/main.b83f1386.chunk.css.map",
+    "static/css/main.eeafa393.chunk.css.map": "/ehrdb-landing/static/css/main.eeafa393.chunk.css.map",
     "static/js/2.dc565deb.chunk.js.LICENSE.txt": "/ehrdb-landing/static/js/2.dc565deb.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ehrdb-landing/static/media/shadow.dc349247.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4fccdd0.js",
     "static/js/2.dc565deb.chunk.js",
-    "static/css/main.b83f1386.chunk.css",
-    "static/js/main.af6dd60b.chunk.js"
+    "static/css/main.eeafa393.chunk.css",
+    "static/js/main.5e1c903a.chunk.js"
   ]
 }
